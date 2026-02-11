@@ -1,0 +1,81 @@
+{
+  "id": "gid5e",
+  "title": "The Great Index D&D5e",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "description": "<div><p><span style=\"color:#ce9178\"><span style=\"color:#cccccc;background-color:#1f1f1f;font-family:Consolas, 'Courier New', monospace;font-weight:normal;font-size:14px;line-height:19px;white-space:pre\">DnD Index for referencing all DnD content, and DnD homebrew</span></span></p></div>",
+  "authors": [
+    {
+      "name": "The Innbrewer",
+      "flags": {},
+      "patreon": "https://www.patreon.com/c/TheInnbrewer",
+      "ko-fi": "https://ko-fi.com/theinnbrewer"
+
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "gid5e-races",
+      "label": "The Great Index D&D5e Races",
+      "path": "packs/gid5e-races",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "gid5e-backgrounds",
+      "label": "The Great Index D&D5e Backgrounds",
+      "path": "packs/gid5e-backgrounds",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "gid5e-npc",
+      "label": "The Great Index D&D5e NPC",
+      "path": "packs/gid5e-npc",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "gid5e-classes",
+      "label": "The Great Index D&D5e Classes",
+      "path": "packs/gid5e-classes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  }
+}

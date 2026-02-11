@@ -70,6 +70,64 @@
       },
       "system": "dnd5e",
       "flags": {}
+    },
+    {
+      "name": "gid5e-items",
+      "label": "The Great Index D&D5e items",
+      "path": "packs/gid5e-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "gid5e-spells",
+      "label": "The Great Index D&D5e spells",
+      "path": "packs/gid5e-spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+
+
+  ],
+  "packFolders": [
+    {
+      "name": "Great Index D&D5e",
+      "color": "#f1e9d2",
+      "sorting": "m",
+      "packs": [
+          "gid5e-races"
+      ],
+      "folders": [
+        {
+          "name": "WIP",
+          "sorting": "a",
+          "color": "#998b78",
+          "packs": [
+            "gid5e-backgrounds"
+          ]
+        },
+        {
+          "name": "Pending",
+          "sorting": "a",
+          "color": "#716751",
+          "packs": [
+            "gid5e-classes",
+            "gid5e-npc",
+            "gid5e-items",
+            "gid5e-spells"
+          ]
+        }
+
+      ]
     }
   ],
   "relationships": {

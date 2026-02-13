@@ -101,8 +101,8 @@
   "packFolders": [
     {
       "name": "Great Index D&D5e",
+      "sorting": "a",
       "color": "#f1e9d2",
-      "sorting": "m",
       "packs": [
           "gid5e-races"
       ],
